@@ -1,0 +1,51 @@
+/* Container Styling */
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 80px; /* Push form up from the bottom */
+}
+
+/* Form Label */
+.form-label {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* Inputs and Textarea */
+input,
+textarea {
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  font-size: 0.95rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Reduce spacing between fields */
+.mb-3 {
+  margin-bottom: 15px;
+}
+
+/* Textarea specific */
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+/* Submit Button */
+button {
+  font-size: 1rem;
+  padding: 10px 25px;
+  border-radius: 50px;
+  background-color: #38b000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2f6b4f;
+}
