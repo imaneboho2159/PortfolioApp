@@ -1,0 +1,31 @@
+.banner-wrapper {
+  background-color: #fdfbf6;
+  font-family: 'Georgia', serif;
+}
+
+
+.quote-icon svg {
+  transform: scaleX(-1);
+}
+
+
+.bg-shape {
+  position: absolute;
+  bottom: 10px;
+  left: 30px;
+  width: 300px;
+  height: 160px;
+  background: radial-gradient(circle at 30% 50%, #cde1d2 40%, transparent 41%),
+  radial-gradient(circle at 70% 50%, #f3dcdc 40%, transparent 41%);
+  z-index: 1;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2rem;
+  z-index: 2;
+}
