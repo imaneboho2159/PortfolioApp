@@ -1,0 +1,49 @@
+
+
+/* Container Setup */
+.container {
+  max-width: 1100px;
+}
+
+
+/* Project Cards */
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+
+.card-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+
+.card-body {
+  padding: 20px;
+}
+
+
+.card-body a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #38b000;
+}
+
+
+.card-body a:hover {
+  background-color: #2f6b4f;
+}
+
+
+/* Layout for the Project Cards */
+.row {
+  margin-top: 2rem;
+}

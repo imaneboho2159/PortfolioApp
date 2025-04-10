@@ -1,0 +1,14 @@
+<div class="container py-5 px-3 px-md-5 bg-light">
+  <h2  id="projects"   class="mb-4 text-center fw-bold text-success">Projects</h2>
+  <div class="row g-4">
+    <div class="col-md-4" *ngFor="let project of projects">
+      <div class="card h-100 shadow-sm rounded-4">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">{{ project.title }}</h5>
+          <p class="card-text">{{ project.description }}</p>
+          <a [href]="project.link" class="btn btn-outline-success btn-sm rounded-pill" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
